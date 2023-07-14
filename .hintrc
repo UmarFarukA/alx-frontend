@@ -16,6 +16,19 @@
         "document-title": "off"
       }
     ],
-    "meta-charset-utf-8": "off"
-  }
+    "meta-charset-utf-8": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 14.8"
+  ]
 }
