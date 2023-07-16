@@ -490,7 +490,8 @@ a:active {
 
 .container {
     width: 960px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 [data-section-theme="dark"] {
@@ -548,8 +549,7 @@ ul.row {
 
 [class*="col-"] {
     float: left;
-    padding: .5rem;
-
+    padding: 0.5rem;
 }
 
 .col-1-3 {
